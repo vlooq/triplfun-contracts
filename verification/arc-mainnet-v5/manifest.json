@@ -251,5 +251,316 @@
     "sources/contracts/src/v5/TriplV5TokenDeployer.sol": "sha256:3a01170c4efbd2c9ed721a7feb636e8f3b644ce0d4e609f2f18895bf8778f3f7",
     "sources/contracts/src/v5/TriplV5Types.sol": "sha256:3bf08505744dee4bc258b38932de92a99d064bde58b2514f3ad6077daad21994",
     "sources/contracts/src/v5/TriplV5VaultDeployer.sol": "sha256:76c878914aff8e3823b3a3774b910f78efaf1d07a5228572761f1733c8226379"
-  }
+  },
+  "childLaunchCount": 3,
+  "childContractCount": 15,
+  "childLaunches": [
+    {
+      "launchIndex": 0,
+      "contracts": [
+        {
+          "role": "token",
+          "name": "TriplV5ProtectedToken",
+          "source": "contracts/src/v5/TriplV5ProtectedToken.sol",
+          "address": "0xdDCD0ccBCF1e8f74c18ea5ef76aFA40c46CdFe74",
+          "submission": "c0b5ce54-3917-4bc3-8d8e-54a9c12de190",
+          "sourcify": {
+            "httpStatus": 200,
+            "matchId": "51325715",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-19T18:32:07Z",
+            "match": "exact_match",
+            "chainId": "5042",
+            "address": "0xdDCD0ccBCF1e8f74c18ea5ef76aFA40c46CdFe74",
+            "endpoint": "https://sourcify.dev/server/v2/contract/5042/0xdDCD0ccBCF1e8f74c18ea5ef76aFA40c46CdFe74"
+          },
+          "responseFile": "sourcify-responses/0xdDCD0ccBCF1e8f74c18ea5ef76aFA40c46CdFe74.json"
+        },
+        {
+          "role": "market",
+          "name": "TriplV5Market",
+          "source": "contracts/src/v5/TriplV5Market.sol",
+          "address": "0xA14f0A4843b1E73dDC8bd3dFC8894141a2873786",
+          "submission": "e6824e12-aee6-418d-9992-4f12d52924a3",
+          "sourcify": {
+            "httpStatus": 200,
+            "matchId": "51325718",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-19T18:32:07Z",
+            "match": "exact_match",
+            "chainId": "5042",
+            "address": "0xA14f0A4843b1E73dDC8bd3dFC8894141a2873786",
+            "endpoint": "https://sourcify.dev/server/v2/contract/5042/0xA14f0A4843b1E73dDC8bd3dFC8894141a2873786"
+          },
+          "responseFile": "sourcify-responses/0xA14f0A4843b1E73dDC8bd3dFC8894141a2873786.json"
+        },
+        {
+          "role": "vault",
+          "name": "TriplV5FeeVault",
+          "source": "contracts/src/v5/TriplV5FeeVault.sol",
+          "address": "0xe3613821be6407B96767a62c4DED92efD61f6485",
+          "submission": "7e3f0fe5-9523-4eac-9ae5-d41e601d7654",
+          "sourcify": {
+            "httpStatus": 200,
+            "matchId": "51325717",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-19T18:32:07Z",
+            "match": "exact_match",
+            "chainId": "5042",
+            "address": "0xe3613821be6407B96767a62c4DED92efD61f6485",
+            "endpoint": "https://sourcify.dev/server/v2/contract/5042/0xe3613821be6407B96767a62c4DED92efD61f6485"
+          },
+          "responseFile": "sourcify-responses/0xe3613821be6407B96767a62c4DED92efD61f6485.json"
+        },
+        {
+          "role": "staking",
+          "name": "TriplV5StakingRewards",
+          "source": "contracts/src/v5/TriplV5StakingRewards.sol",
+          "address": "0xb1d3052D56837b65be47072806C6f7925cc4e515",
+          "submission": "abb323e9-bb3a-48da-be68-044c6a4a757f",
+          "sourcify": {
+            "httpStatus": 200,
+            "matchId": "51325722",
+            "creationMatch": null,
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-19T18:32:08Z",
+            "match": "exact_match",
+            "chainId": "5042",
+            "address": "0xb1d3052D56837b65be47072806C6f7925cc4e515",
+            "endpoint": "https://sourcify.dev/server/v2/contract/5042/0xb1d3052D56837b65be47072806C6f7925cc4e515"
+          },
+          "responseFile": "sourcify-responses/0xb1d3052D56837b65be47072806C6f7925cc4e515.json"
+        },
+        {
+          "role": "locker",
+          "name": "TriplV5LiquidityLocker",
+          "source": "contracts/src/v5/TriplV5LiquidityLocker.sol",
+          "address": "0x8fD9769c7bc8831B7BbB1b11D4795De01FA2BE4a",
+          "submission": "fb6decc8-3c91-43c2-a9c2-682e81994d4b",
+          "sourcify": {
+            "httpStatus": 200,
+            "matchId": "51325728",
+            "creationMatch": null,
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-19T18:32:09Z",
+            "match": "exact_match",
+            "chainId": "5042",
+            "address": "0x8fD9769c7bc8831B7BbB1b11D4795De01FA2BE4a",
+            "endpoint": "https://sourcify.dev/server/v2/contract/5042/0x8fD9769c7bc8831B7BbB1b11D4795De01FA2BE4a"
+          },
+          "responseFile": "sourcify-responses/0x8fD9769c7bc8831B7BbB1b11D4795De01FA2BE4a.json"
+        }
+      ],
+      "token": "0xdDCD0ccBCF1e8f74c18ea5ef76aFA40c46CdFe74",
+      "market": "0xA14f0A4843b1E73dDC8bd3dFC8894141a2873786"
+    },
+    {
+      "launchIndex": 1,
+      "contracts": [
+        {
+          "role": "token",
+          "name": "TriplV5ProtectedToken",
+          "source": "contracts/src/v5/TriplV5ProtectedToken.sol",
+          "address": "0xac5A4361321Bb78bd1a18d52375cc5fe2C6E5830",
+          "submission": "06f0004d-6815-4941-be1f-743437959a95",
+          "sourcify": {
+            "httpStatus": 200,
+            "matchId": "51325721",
+            "creationMatch": null,
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-19T18:32:08Z",
+            "match": "exact_match",
+            "chainId": "5042",
+            "address": "0xac5A4361321Bb78bd1a18d52375cc5fe2C6E5830",
+            "endpoint": "https://sourcify.dev/server/v2/contract/5042/0xac5A4361321Bb78bd1a18d52375cc5fe2C6E5830"
+          },
+          "responseFile": "sourcify-responses/0xac5A4361321Bb78bd1a18d52375cc5fe2C6E5830.json"
+        },
+        {
+          "role": "market",
+          "name": "TriplV5Market",
+          "source": "contracts/src/v5/TriplV5Market.sol",
+          "address": "0xF057C82Fb4256AF3732509533fe0B0bd5A68082d",
+          "submission": "ae5f4615-1ca6-4d6f-a983-4431343768c0",
+          "sourcify": {
+            "httpStatus": 200,
+            "matchId": "51325724",
+            "creationMatch": null,
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-19T18:32:09Z",
+            "match": "exact_match",
+            "chainId": "5042",
+            "address": "0xF057C82Fb4256AF3732509533fe0B0bd5A68082d",
+            "endpoint": "https://sourcify.dev/server/v2/contract/5042/0xF057C82Fb4256AF3732509533fe0B0bd5A68082d"
+          },
+          "responseFile": "sourcify-responses/0xF057C82Fb4256AF3732509533fe0B0bd5A68082d.json"
+        },
+        {
+          "role": "vault",
+          "name": "TriplV5FeeVault",
+          "source": "contracts/src/v5/TriplV5FeeVault.sol",
+          "address": "0x1dbc01Ff6A02f848d728B3DC92816DdD1cAa8008",
+          "submission": "0130a5a5-cab9-45cc-877b-e128a2509c83",
+          "sourcify": {
+            "httpStatus": 200,
+            "matchId": "51325729",
+            "creationMatch": null,
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-19T18:32:09Z",
+            "match": "exact_match",
+            "chainId": "5042",
+            "address": "0x1dbc01Ff6A02f848d728B3DC92816DdD1cAa8008",
+            "endpoint": "https://sourcify.dev/server/v2/contract/5042/0x1dbc01Ff6A02f848d728B3DC92816DdD1cAa8008"
+          },
+          "responseFile": "sourcify-responses/0x1dbc01Ff6A02f848d728B3DC92816DdD1cAa8008.json"
+        },
+        {
+          "role": "staking",
+          "name": "TriplV5StakingRewards",
+          "source": "contracts/src/v5/TriplV5StakingRewards.sol",
+          "address": "0x7F3983A6Dc3F3E987FFfeaa26121AA0808d7FdbF",
+          "submission": "7d7dcbfc-ca21-4ff4-a638-ca76917d79b3",
+          "sourcify": {
+            "httpStatus": 200,
+            "matchId": "51325727",
+            "creationMatch": null,
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-19T18:32:09Z",
+            "match": "exact_match",
+            "chainId": "5042",
+            "address": "0x7F3983A6Dc3F3E987FFfeaa26121AA0808d7FdbF",
+            "endpoint": "https://sourcify.dev/server/v2/contract/5042/0x7F3983A6Dc3F3E987FFfeaa26121AA0808d7FdbF"
+          },
+          "responseFile": "sourcify-responses/0x7F3983A6Dc3F3E987FFfeaa26121AA0808d7FdbF.json"
+        },
+        {
+          "role": "locker",
+          "name": "TriplV5LiquidityLocker",
+          "source": "contracts/src/v5/TriplV5LiquidityLocker.sol",
+          "address": "0x915e2a72CcDe3fc19dFE70fA30E144681FA695Ea",
+          "submission": "da54e5b2-533c-401c-bd42-5cf5235e72c4",
+          "sourcify": {
+            "httpStatus": 200,
+            "matchId": "51325723",
+            "creationMatch": null,
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-19T18:32:09Z",
+            "match": "exact_match",
+            "chainId": "5042",
+            "address": "0x915e2a72CcDe3fc19dFE70fA30E144681FA695Ea",
+            "endpoint": "https://sourcify.dev/server/v2/contract/5042/0x915e2a72CcDe3fc19dFE70fA30E144681FA695Ea"
+          },
+          "responseFile": "sourcify-responses/0x915e2a72CcDe3fc19dFE70fA30E144681FA695Ea.json"
+        }
+      ],
+      "token": "0xac5A4361321Bb78bd1a18d52375cc5fe2C6E5830",
+      "market": "0xF057C82Fb4256AF3732509533fe0B0bd5A68082d"
+    },
+    {
+      "launchIndex": 2,
+      "contracts": [
+        {
+          "role": "token",
+          "name": "TriplV5ProtectedToken",
+          "source": "contracts/src/v5/TriplV5ProtectedToken.sol",
+          "address": "0xd21741e396d0c5653f21144720268661D055260d",
+          "submission": "fa7d81be-9656-4da4-9d22-0580eb1192ac",
+          "sourcify": {
+            "httpStatus": 200,
+            "matchId": "51325725",
+            "creationMatch": null,
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-19T18:32:09Z",
+            "match": "exact_match",
+            "chainId": "5042",
+            "address": "0xd21741e396d0c5653f21144720268661D055260d",
+            "endpoint": "https://sourcify.dev/server/v2/contract/5042/0xd21741e396d0c5653f21144720268661D055260d"
+          },
+          "responseFile": "sourcify-responses/0xd21741e396d0c5653f21144720268661D055260d.json"
+        },
+        {
+          "role": "market",
+          "name": "TriplV5Market",
+          "source": "contracts/src/v5/TriplV5Market.sol",
+          "address": "0x306cCcaE8eA042e62bD16f890996C13DC3d4f7F9",
+          "submission": "bce04f26-b3fa-4ff9-8dd8-c6aa164e313d",
+          "sourcify": {
+            "httpStatus": 200,
+            "matchId": "51325720",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-19T18:32:08Z",
+            "match": "exact_match",
+            "chainId": "5042",
+            "address": "0x306cCcaE8eA042e62bD16f890996C13DC3d4f7F9",
+            "endpoint": "https://sourcify.dev/server/v2/contract/5042/0x306cCcaE8eA042e62bD16f890996C13DC3d4f7F9"
+          },
+          "responseFile": "sourcify-responses/0x306cCcaE8eA042e62bD16f890996C13DC3d4f7F9.json"
+        },
+        {
+          "role": "vault",
+          "name": "TriplV5FeeVault",
+          "source": "contracts/src/v5/TriplV5FeeVault.sol",
+          "address": "0xB78CAa75805Ce3649E3900f813718219293c15Cc",
+          "submission": "7fc08cf7-f04c-45dc-845f-32cd26ffce54",
+          "sourcify": {
+            "httpStatus": 200,
+            "matchId": "51325719",
+            "creationMatch": "exact_match",
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-19T18:32:08Z",
+            "match": "exact_match",
+            "chainId": "5042",
+            "address": "0xB78CAa75805Ce3649E3900f813718219293c15Cc",
+            "endpoint": "https://sourcify.dev/server/v2/contract/5042/0xB78CAa75805Ce3649E3900f813718219293c15Cc"
+          },
+          "responseFile": "sourcify-responses/0xB78CAa75805Ce3649E3900f813718219293c15Cc.json"
+        },
+        {
+          "role": "staking",
+          "name": "TriplV5StakingRewards",
+          "source": "contracts/src/v5/TriplV5StakingRewards.sol",
+          "address": "0xE19E54Bb5D4a0645E201126e1CADBf7cfa666b6F",
+          "submission": "d4be1eca-7aaa-4d34-818b-1726a201d683",
+          "sourcify": {
+            "httpStatus": 200,
+            "matchId": "51325726",
+            "creationMatch": null,
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-19T18:32:09Z",
+            "match": "exact_match",
+            "chainId": "5042",
+            "address": "0xE19E54Bb5D4a0645E201126e1CADBf7cfa666b6F",
+            "endpoint": "https://sourcify.dev/server/v2/contract/5042/0xE19E54Bb5D4a0645E201126e1CADBf7cfa666b6F"
+          },
+          "responseFile": "sourcify-responses/0xE19E54Bb5D4a0645E201126e1CADBf7cfa666b6F.json"
+        },
+        {
+          "role": "locker",
+          "name": "TriplV5LiquidityLocker",
+          "source": "contracts/src/v5/TriplV5LiquidityLocker.sol",
+          "address": "0xe65fb9fDd987E6253FE63DC2185691276f1C8745",
+          "submission": "844ac857-f76e-4f18-b916-4d3a45d780fb",
+          "sourcify": {
+            "httpStatus": 200,
+            "matchId": "51325730",
+            "creationMatch": null,
+            "runtimeMatch": "exact_match",
+            "verifiedAt": "2026-09-19T18:32:10Z",
+            "match": "exact_match",
+            "chainId": "5042",
+            "address": "0xe65fb9fDd987E6253FE63DC2185691276f1C8745",
+            "endpoint": "https://sourcify.dev/server/v2/contract/5042/0xe65fb9fDd987E6253FE63DC2185691276f1C8745"
+          },
+          "responseFile": "sourcify-responses/0xe65fb9fDd987E6253FE63DC2185691276f1C8745.json"
+        }
+      ],
+      "token": "0xd21741e396d0c5653f21144720268661D055260d",
+      "market": "0x306cCcaE8eA042e62bD16f890996C13DC3d4f7F9"
+    }
+  ],
+  "childResponsesCheckedAt": "2026-09-19T18:33:59.197Z"
 }

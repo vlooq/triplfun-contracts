@@ -1,0 +1,11 @@
+{
+  "httpStatus": 200,
+  "matchId": "51325729",
+  "creationMatch": null,
+  "runtimeMatch": "exact_match",
+  "verifiedAt": "2026-09-19T18:32:09Z",
+  "match": "exact_match",
+  "chainId": "5042",
+  "address": "0x1dbc01Ff6A02f848d728B3DC92816DdD1cAa8008",
+  "endpoint": "https://sourcify.dev/server/v2/contract/5042/0x1dbc01Ff6A02f848d728B3DC92816DdD1cAa8008"
+}
