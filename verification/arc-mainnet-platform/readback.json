@@ -1,0 +1,55 @@
+{
+  "chainId": 5042,
+  "blockNumber": "21706900",
+  "launchDeployer": {
+    "factory": "0xEc2Cfd2749D7De9662615DbA63742888f6250287",
+    "poolManager": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+    "usdc": "0x3600000000000000000000000000000000000000",
+    "hook": "0xF3dd4C1A67F7d970a5D77E9b8D1466A613a820CC",
+    "router": "0x0A2B7fcc81210ff7326F2A6571E821686823948c",
+    "feeVault": "0x1429f58F91fFD0625D6227B6a19dBACB402CEA5E"
+  },
+  "token": {
+    "factory": "0xEc2Cfd2749D7De9662615DbA63742888f6250287",
+    "name": "tr!pl",
+    "symbol": "tr!pl",
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "market": {
+    "factory": "0xEc2Cfd2749D7De9662615DbA63742888f6250287",
+    "token": "0x92bc59b005eA6A57E804AF8233b8a2B2704D19d8",
+    "router": "0x0A2B7fcc81210ff7326F2A6571E821686823948c",
+    "poolId": "0xb8f3fa8fdea09bd96c74a2ea791fa51dc47552e61bafbf091442e7927f2e62b5",
+    "poolKey": {
+      "currency0": "0x3600000000000000000000000000000000000000",
+      "currency1": "0x92bc59b005eA6A57E804AF8233b8a2B2704D19d8",
+      "fee": 0,
+      "tickSpacing": 60,
+      "hooks": "0xF3dd4C1A67F7d970a5D77E9b8D1466A613a820CC"
+    }
+  },
+  "locker": {
+    "factory": "0xEc2Cfd2749D7De9662615DbA63742888f6250287",
+    "poolManager": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+    "token": "0x92bc59b005eA6A57E804AF8233b8a2B2704D19d8",
+    "poolId": "0xb8f3fa8fdea09bd96c74a2ea791fa51dc47552e61bafbf091442e7927f2e62b5",
+    "tickLower": -199380,
+    "tickUpper": 400620,
+    "poolKey": {
+      "currency0": "0x3600000000000000000000000000000000000000",
+      "currency1": "0x92bc59b005eA6A57E804AF8233b8a2B2704D19d8",
+      "fee": 0,
+      "tickSpacing": 60,
+      "hooks": "0xF3dd4C1A67F7d970a5D77E9b8D1466A613a820CC"
+    }
+  },
+  "rewards": {
+    "quote": "0x3600000000000000000000000000000000000000",
+    "token": "0x92bc59b005eA6A57E804AF8233b8a2B2704D19d8",
+    "factory": "0xEc2Cfd2749D7De9662615DbA63742888f6250287",
+    "market": "0x499bc2e4766D9A2f06107bc900AdC556e67dafFD",
+    "feeVault": "0x1429f58F91fFD0625D6227B6a19dBACB402CEA5E",
+    "poolManager": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+    "exclusionCount": "9"
+  }
+}

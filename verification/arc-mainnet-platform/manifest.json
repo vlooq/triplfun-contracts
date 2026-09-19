@@ -1,0 +1,282 @@
+{
+  "generatedAt": "2026-09-19T17:54:05.135Z",
+  "chainId": 5042,
+  "rpcUrl": "https://rpc.mainnet.arc.io",
+  "submitted": false,
+  "platformLaunchTransaction": "0x0a37a86685cd44f0cba2357156bd2bb235409c210a1555b0055be0bc04868d1b",
+  "infrastructureInitializationTransaction": "0x3671d211edf4bd8cf25a44b5b0e4cb2e06e7992b59701a1e497bb021e3883155",
+  "contracts": [
+    {
+      "name": "TriplV4LaunchDeployer",
+      "address": "0x81A29ABfdB19Ce7B02E6A69D0b6a5e0282c1164D",
+      "args": [
+        "0xEc2Cfd2749D7De9662615DbA63742888f6250287",
+        "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+        "0x3600000000000000000000000000000000000000",
+        "0xF3dd4C1A67F7d970a5D77E9b8D1466A613a820CC",
+        "0x0A2B7fcc81210ff7326F2A6571E821686823948c",
+        "0x1429f58F91fFD0625D6227B6a19dBACB402CEA5E"
+      ],
+      "immediateDeployer": "0xF1A799C093b14f50F93E9d50829C8778c5F2f3B1",
+      "creationTransaction": "0x3671d211edf4bd8cf25a44b5b0e4cb2e06e7992b59701a1e497bb021e3883155",
+      "target": "contracts/src/v4/TriplV4LaunchDeployer.sol:TriplV4LaunchDeployer",
+      "constructorArgs": "0x000000000000000000000000ec2cfd2749d7de9662615dba63742888f62502870000000000000000000000008366a39cc670b4001a1121b8f6a443a643e409510000000000000000000000003600000000000000000000000000000000000000000000000000000000000000f3dd4c1a67f7d970a5d77e9b8d1466a613a820cc0000000000000000000000000a2b7fcc81210ff7326f2a6571e821686823948c0000000000000000000000001429f58f91ffd0625d6227b6a19dbacb402cea5e",
+      "creationCodeHash": "0xeb215b30f79e2892231206f0a2ab758894f1abce8abb5ecaafe89f9546ed9f6d",
+      "liveRuntimeCodeHash": "0x1b8bb4533e2e43ed5577ac6243154034b76da1bfc92bdcb5745beda61c252b15",
+      "runtimeCheck": {
+        "matches": true,
+        "expectedBytes": 23824,
+        "liveBytes": 23824,
+        "normalizedTemplateHash": "0x5f11351ea3d7f2027eab1bdabbbffc45f6713d3e4bc0b99184ec5df6633b48cb",
+        "normalizedLiveHash": "0x5f11351ea3d7f2027eab1bdabbbffc45f6713d3e4bc0b99184ec5df6633b48cb"
+      },
+      "compiler": "0.8.30+commit.73712a01",
+      "settings": {
+        "remappings": [
+          "@openzeppelin/contracts/=vendor/openzeppelin-contracts/contracts/",
+          "@uniswap/v4-core/=vendor/uniswap-v4-core/",
+          "forge-std/=vendor/forge-std/src/",
+          "solmate/=vendor/solmate/"
+        ],
+        "optimizer": {
+          "enabled": true,
+          "runs": 200
+        },
+        "metadata": {
+          "bytecodeHash": "ipfs"
+        },
+        "compilationTarget": {
+          "contracts/src/v4/TriplV4LaunchDeployer.sol": "TriplV4LaunchDeployer"
+        },
+        "evmVersion": "cancun",
+        "libraries": {}
+      },
+      "sourcify": {
+        "match": null,
+        "creationMatch": null,
+        "runtimeMatch": null,
+        "httpStatus": 404
+      }
+    },
+    {
+      "name": "TriplV4Token",
+      "address": "0x92bc59b005eA6A57E804AF8233b8a2B2704D19d8",
+      "args": [
+        "tr!pl",
+        "tr!pl",
+        "0xEc2Cfd2749D7De9662615DbA63742888f6250287"
+      ],
+      "immediateDeployer": "0x81A29ABfdB19Ce7B02E6A69D0b6a5e0282c1164D",
+      "creationTransaction": "0x0a37a86685cd44f0cba2357156bd2bb235409c210a1555b0055be0bc04868d1b",
+      "target": "contracts/src/v4/TriplV4Token.sol:TriplV4Token",
+      "constructorArgs": "0x000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000ec2cfd2749d7de9662615dba63742888f62502870000000000000000000000000000000000000000000000000000000000000005747221706c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005747221706c000000000000000000000000000000000000000000000000000000",
+      "creationCodeHash": "0x4f913b9a7a7df418a0e4540c9dd53d831e2d78563ceaefcfea07950c0d1d76b1",
+      "liveRuntimeCodeHash": "0x4eefd2ed377e5775019723c0bea1e8e3b3a187cb77a610cc75345601668bd795",
+      "runtimeCheck": {
+        "matches": true,
+        "expectedBytes": 2440,
+        "liveBytes": 2440,
+        "normalizedTemplateHash": "0xd4d9dde23b4fc4d33cd8465744a2774c728691de1b08b327caa62fd6d341716e",
+        "normalizedLiveHash": "0xd4d9dde23b4fc4d33cd8465744a2774c728691de1b08b327caa62fd6d341716e"
+      },
+      "compiler": "0.8.30+commit.73712a01",
+      "settings": {
+        "remappings": [
+          "@openzeppelin/contracts/=vendor/openzeppelin-contracts/contracts/",
+          "@uniswap/v4-core/=vendor/uniswap-v4-core/",
+          "forge-std/=vendor/forge-std/src/",
+          "solmate/=vendor/solmate/"
+        ],
+        "optimizer": {
+          "enabled": true,
+          "runs": 200
+        },
+        "metadata": {
+          "bytecodeHash": "ipfs"
+        },
+        "compilationTarget": {
+          "contracts/src/v4/TriplV4Token.sol": "TriplV4Token"
+        },
+        "evmVersion": "cancun",
+        "libraries": {}
+      },
+      "sourcify": {
+        "match": null,
+        "creationMatch": null,
+        "runtimeMatch": null,
+        "httpStatus": 404
+      }
+    },
+    {
+      "name": "TriplV4Market",
+      "address": "0x499bc2e4766D9A2f06107bc900AdC556e67dafFD",
+      "args": [
+        "0xEc2Cfd2749D7De9662615DbA63742888f6250287",
+        "0x92bc59b005eA6A57E804AF8233b8a2B2704D19d8",
+        "0x0A2B7fcc81210ff7326F2A6571E821686823948c",
+        {
+          "currency0": "0x3600000000000000000000000000000000000000",
+          "currency1": "0x92bc59b005eA6A57E804AF8233b8a2B2704D19d8",
+          "fee": 0,
+          "tickSpacing": 60,
+          "hooks": "0xF3dd4C1A67F7d970a5D77E9b8D1466A613a820CC"
+        }
+      ],
+      "immediateDeployer": "0x81A29ABfdB19Ce7B02E6A69D0b6a5e0282c1164D",
+      "creationTransaction": "0x0a37a86685cd44f0cba2357156bd2bb235409c210a1555b0055be0bc04868d1b",
+      "target": "contracts/src/v4/TriplV4Market.sol:TriplV4Market",
+      "constructorArgs": "0x000000000000000000000000ec2cfd2749d7de9662615dba63742888f625028700000000000000000000000092bc59b005ea6a57e804af8233b8a2b2704d19d80000000000000000000000000a2b7fcc81210ff7326f2a6571e821686823948c000000000000000000000000360000000000000000000000000000000000000000000000000000000000000092bc59b005ea6a57e804af8233b8a2b2704d19d80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c000000000000000000000000f3dd4c1a67f7d970a5d77e9b8d1466a613a820cc",
+      "creationCodeHash": "0xc5486b24596b472fbb706e1bd2720f9935788f0d8ef23066651e9602d0ebdf9c",
+      "liveRuntimeCodeHash": "0xfa6361079fed3d764d16e96831476f68316e4660dd5ef1b17e380a6b62b24a45",
+      "runtimeCheck": {
+        "matches": true,
+        "expectedBytes": 1814,
+        "liveBytes": 1814,
+        "normalizedTemplateHash": "0xcbc69848c995c09d2f4588086b0636fae6a6d344808108ca862c323ea912cd9e",
+        "normalizedLiveHash": "0xcbc69848c995c09d2f4588086b0636fae6a6d344808108ca862c323ea912cd9e"
+      },
+      "compiler": "0.8.30+commit.73712a01",
+      "settings": {
+        "remappings": [
+          "@openzeppelin/contracts/=vendor/openzeppelin-contracts/contracts/",
+          "@uniswap/v4-core/=vendor/uniswap-v4-core/",
+          "forge-std/=vendor/forge-std/src/",
+          "solmate/=vendor/solmate/"
+        ],
+        "optimizer": {
+          "enabled": true,
+          "runs": 200
+        },
+        "metadata": {
+          "bytecodeHash": "ipfs"
+        },
+        "compilationTarget": {
+          "contracts/src/v4/TriplV4Market.sol": "TriplV4Market"
+        },
+        "evmVersion": "cancun",
+        "libraries": {}
+      },
+      "sourcify": {
+        "match": null,
+        "creationMatch": null,
+        "runtimeMatch": null,
+        "httpStatus": 404
+      }
+    },
+    {
+      "name": "TriplV4LiquidityLocker",
+      "address": "0x281b1F3B1Dc7f14c3fE6332BC2f5e288ce8aefBe",
+      "args": [
+        "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+        "0xEc2Cfd2749D7De9662615DbA63742888f6250287",
+        "0x92bc59b005eA6A57E804AF8233b8a2B2704D19d8",
+        {
+          "currency0": "0x3600000000000000000000000000000000000000",
+          "currency1": "0x92bc59b005eA6A57E804AF8233b8a2B2704D19d8",
+          "fee": 0,
+          "tickSpacing": 60,
+          "hooks": "0xF3dd4C1A67F7d970a5D77E9b8D1466A613a820CC"
+        },
+        -199380,
+        400620
+      ],
+      "immediateDeployer": "0x81A29ABfdB19Ce7B02E6A69D0b6a5e0282c1164D",
+      "creationTransaction": "0x0a37a86685cd44f0cba2357156bd2bb235409c210a1555b0055be0bc04868d1b",
+      "target": "contracts/src/v4/TriplV4LiquidityLocker.sol:TriplV4LiquidityLocker",
+      "constructorArgs": "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951000000000000000000000000ec2cfd2749d7de9662615dba63742888f625028700000000000000000000000092bc59b005ea6a57e804af8233b8a2b2704d19d8000000000000000000000000360000000000000000000000000000000000000000000000000000000000000092bc59b005ea6a57e804af8233b8a2b2704d19d80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003c000000000000000000000000f3dd4c1a67f7d970a5d77e9b8d1466a613a820ccfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcf52c0000000000000000000000000000000000000000000000000000000000061cec",
+      "creationCodeHash": "0xde6f8c04bafea66fb4992f03329edf3cd8b378e8d658d956eef4dd55c76b51b1",
+      "liveRuntimeCodeHash": "0x6ebd84ac76cad318e6b7e299b7ab5d8db67d92386db6ed1d6096d91f7fe6eb36",
+      "runtimeCheck": {
+        "matches": true,
+        "expectedBytes": 6364,
+        "liveBytes": 6364,
+        "normalizedTemplateHash": "0x805ec9d99318909cb4e67bf9b7e8b19e50ae0f5b0bca62f48b2448f02f938463",
+        "normalizedLiveHash": "0x805ec9d99318909cb4e67bf9b7e8b19e50ae0f5b0bca62f48b2448f02f938463"
+      },
+      "compiler": "0.8.30+commit.73712a01",
+      "settings": {
+        "remappings": [
+          "@openzeppelin/contracts/=vendor/openzeppelin-contracts/contracts/",
+          "@uniswap/v4-core/=vendor/uniswap-v4-core/",
+          "forge-std/=vendor/forge-std/src/",
+          "solmate/=vendor/solmate/"
+        ],
+        "optimizer": {
+          "enabled": true,
+          "runs": 200
+        },
+        "metadata": {
+          "bytecodeHash": "ipfs"
+        },
+        "compilationTarget": {
+          "contracts/src/v4/TriplV4LiquidityLocker.sol": "TriplV4LiquidityLocker"
+        },
+        "evmVersion": "cancun",
+        "libraries": {}
+      },
+      "sourcify": {
+        "match": null,
+        "creationMatch": null,
+        "runtimeMatch": null,
+        "httpStatus": 404
+      }
+    },
+    {
+      "name": "TriplV4HolderRewards",
+      "address": "0xa012E999b2397C3cdadbb5F59e6b57874E06ff4F",
+      "args": [
+        "0x3600000000000000000000000000000000000000",
+        "0x92bc59b005eA6A57E804AF8233b8a2B2704D19d8",
+        "0xEc2Cfd2749D7De9662615DbA63742888f6250287",
+        "0x499bc2e4766D9A2f06107bc900AdC556e67dafFD",
+        "0x1429f58F91fFD0625D6227B6a19dBACB402CEA5E",
+        "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+        [
+          "0x281b1F3B1Dc7f14c3fE6332BC2f5e288ce8aefBe",
+          "0x1429f58F91fFD0625D6227B6a19dBACB402CEA5E"
+        ]
+      ],
+      "immediateDeployer": "0x81A29ABfdB19Ce7B02E6A69D0b6a5e0282c1164D",
+      "creationTransaction": "0x0a37a86685cd44f0cba2357156bd2bb235409c210a1555b0055be0bc04868d1b",
+      "target": "contracts/src/v4/TriplV4HolderRewards.sol:TriplV4HolderRewards",
+      "constructorArgs": "0x000000000000000000000000360000000000000000000000000000000000000000000000000000000000000092bc59b005ea6a57e804af8233b8a2b2704d19d8000000000000000000000000ec2cfd2749d7de9662615dba63742888f6250287000000000000000000000000499bc2e4766d9a2f06107bc900adc556e67daffd0000000000000000000000001429f58f91ffd0625d6227b6a19dbacb402cea5e0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e4095100000000000000000000000000000000000000000000000000000000000000e00000000000000000000000000000000000000000000000000000000000000002000000000000000000000000281b1f3b1dc7f14c3fe6332bc2f5e288ce8aefbe0000000000000000000000001429f58f91ffd0625d6227b6a19dbacb402cea5e",
+      "creationCodeHash": "0xb922f76f11e49c836df220ea33d63179d1883340b8ef2c51c1f82044da35cb40",
+      "liveRuntimeCodeHash": "0xa885d1c677f903bba46f5d8fb61c5d77b9b230d25cadcb916bec2f45ac30ab24",
+      "runtimeCheck": {
+        "matches": true,
+        "expectedBytes": 4905,
+        "liveBytes": 4905,
+        "normalizedTemplateHash": "0xa332eecd38124334786f24c0dbe6f626963e7b9bae83e12e730b1d4d94345938",
+        "normalizedLiveHash": "0xa332eecd38124334786f24c0dbe6f626963e7b9bae83e12e730b1d4d94345938"
+      },
+      "compiler": "0.8.30+commit.73712a01",
+      "settings": {
+        "remappings": [
+          "@openzeppelin/contracts/=vendor/openzeppelin-contracts/contracts/",
+          "@uniswap/v4-core/=vendor/uniswap-v4-core/",
+          "forge-std/=vendor/forge-std/src/",
+          "solmate/=vendor/solmate/"
+        ],
+        "optimizer": {
+          "enabled": true,
+          "runs": 200
+        },
+        "metadata": {
+          "bytecodeHash": "ipfs"
+        },
+        "compilationTarget": {
+          "contracts/src/v4/TriplV4HolderRewards.sol": "TriplV4HolderRewards"
+        },
+        "evmVersion": "cancun",
+        "libraries": {}
+      },
+      "sourcify": {
+        "match": null,
+        "creationMatch": null,
+        "runtimeMatch": null,
+        "httpStatus": 404
+      }
+    }
+  ],
+  "note": "Focused package for the five unverified live contracts. Runtime checks compare all non-immutable bytes with the exact local deployment artifact; readback.json validates the constructor-bound immutable values. No source was submitted by this script."
+}
