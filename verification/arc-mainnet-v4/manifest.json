@@ -1,0 +1,236 @@
+{
+  "planFile": "deployments/unsigned-v4/mainnet-review-1789578701308.json",
+  "chainId": 5042,
+  "submitted": false,
+  "compiler": "v0.8.30+commit.73712a01",
+  "compilerSettingsByContract": {
+    "TriplV4CollectionDeployer": {
+      "remappings": [
+        "@openzeppelin/contracts/=vendor/openzeppelin-contracts/contracts/",
+        "@uniswap/v4-core/=vendor/uniswap-v4-core/",
+        "forge-std/=vendor/forge-std/src/",
+        "solmate/=vendor/solmate/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/src/v4/TriplV4CollectionDeployer.sol": "TriplV4CollectionDeployer"
+      },
+      "evmVersion": "cancun",
+      "libraries": {}
+    },
+    "TriplV4InfrastructureDeployer": {
+      "remappings": [
+        "@openzeppelin/contracts/=vendor/openzeppelin-contracts/contracts/",
+        "@uniswap/v4-core/=vendor/uniswap-v4-core/",
+        "forge-std/=vendor/forge-std/src/",
+        "solmate/=vendor/solmate/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/src/v4/TriplV4InfrastructureDeployer.sol": "TriplV4InfrastructureDeployer"
+      },
+      "evmVersion": "cancun",
+      "libraries": {}
+    },
+    "TriplV4LaunchFactory": {
+      "remappings": [
+        "@openzeppelin/contracts/=vendor/openzeppelin-contracts/contracts/",
+        "@uniswap/v4-core/=vendor/uniswap-v4-core/",
+        "forge-std/=vendor/forge-std/src/",
+        "solmate/=vendor/solmate/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/src/v4/TriplV4LaunchFactory.sol": "TriplV4LaunchFactory"
+      },
+      "evmVersion": "cancun",
+      "libraries": {}
+    },
+    "TriplV4Factory": {
+      "remappings": [
+        "@openzeppelin/contracts/=vendor/openzeppelin-contracts/contracts/",
+        "@uniswap/v4-core/=vendor/uniswap-v4-core/",
+        "forge-std/=vendor/forge-std/src/",
+        "solmate/=vendor/solmate/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/src/v4/TriplV4Factory.sol": "TriplV4Factory"
+      },
+      "evmVersion": "cancun",
+      "libraries": {}
+    },
+    "TriplV4FeeShares": {
+      "remappings": [
+        "@openzeppelin/contracts/=vendor/openzeppelin-contracts/contracts/",
+        "@uniswap/v4-core/=vendor/uniswap-v4-core/",
+        "forge-std/=vendor/forge-std/src/",
+        "solmate/=vendor/solmate/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/src/v4/TriplV4FeeShares.sol": "TriplV4FeeShares"
+      },
+      "evmVersion": "cancun",
+      "libraries": {}
+    },
+    "TriplV4FeeVault": {
+      "remappings": [
+        "@openzeppelin/contracts/=vendor/openzeppelin-contracts/contracts/",
+        "@uniswap/v4-core/=vendor/uniswap-v4-core/",
+        "forge-std/=vendor/forge-std/src/",
+        "solmate/=vendor/solmate/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/src/v4/TriplV4FeeVault.sol": "TriplV4FeeVault"
+      },
+      "evmVersion": "cancun",
+      "libraries": {}
+    },
+    "TriplV4HookDeployer": {
+      "remappings": [
+        "@openzeppelin/contracts/=vendor/openzeppelin-contracts/contracts/",
+        "@uniswap/v4-core/=vendor/uniswap-v4-core/",
+        "forge-std/=vendor/forge-std/src/",
+        "solmate/=vendor/solmate/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/src/v4/TriplV4HookDeployer.sol": "TriplV4HookDeployer"
+      },
+      "evmVersion": "cancun",
+      "libraries": {}
+    },
+    "TriplV4FeeHook": {
+      "remappings": [
+        "@openzeppelin/contracts/=vendor/openzeppelin-contracts/contracts/",
+        "@uniswap/v4-core/=vendor/uniswap-v4-core/",
+        "forge-std/=vendor/forge-std/src/",
+        "solmate/=vendor/solmate/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/src/v4/TriplV4FeeHook.sol": "TriplV4FeeHook"
+      },
+      "evmVersion": "cancun",
+      "libraries": {}
+    },
+    "TriplV4SwapRouter": {
+      "remappings": [
+        "@openzeppelin/contracts/=vendor/openzeppelin-contracts/contracts/",
+        "@uniswap/v4-core/=vendor/uniswap-v4-core/",
+        "forge-std/=vendor/forge-std/src/",
+        "solmate/=vendor/solmate/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/src/v4/TriplV4SwapRouter.sol": "TriplV4SwapRouter"
+      },
+      "evmVersion": "cancun",
+      "libraries": {}
+    }
+  },
+  "contracts": [
+    {
+      "name": "TriplV4CollectionDeployer",
+      "address": "0x01339882e1DB961bBC8DcBCD56E6C33Eb11327B8",
+      "args": "0x000000000000000000000000ec2cfd2749d7de9662615dba63742888f6250287"
+    },
+    {
+      "name": "TriplV4InfrastructureDeployer",
+      "address": "0x592d1bF1508006a3e5992d2092Db0aD4fFD4e2a5",
+      "args": "0x000000000000000000000000ec2cfd2749d7de9662615dba63742888f6250287"
+    },
+    {
+      "name": "TriplV4LaunchFactory",
+      "address": "0xF1A799C093b14f50F93E9d50829C8778c5F2f3B1",
+      "args": "0x"
+    },
+    {
+      "name": "TriplV4Factory",
+      "address": "0xEc2Cfd2749D7De9662615DbA63742888f6250287",
+      "args": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000008366a39cc670b4001a1121b8f6a443a643e409510000000000000000000000003600000000000000000000000000000000000000000000000000000000000000c8c656728ed5cd5bd3f3e1c64cb628f3733af5eb000000000000000000000000c8c656728ed5cd5bd3f3e1c64cb628f3733af5eb000000000000000000000000b39560ed824b6eed7cedde5d42bf574b4c0af71200000000000000000000000001339882e1db961bbc8dcbcd56e6c33eb11327b8000000000000000000000000592d1bf1508006a3e5992d2092db0ad4ffd4e2a5000000000000000000000000f1a799c093b14f50f93e9d50829c8778c5f2f3b10000000000000000000000000000000000000000000000000000000000000a460000000000000000000000000000000000000000000000000000000005f5e10000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000180000000000000000000000000000000000000000000000000000000000000002368747470733a2f2f747269706c2e66756e2f6170692f6e66742d6d657461646174612f0000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "TriplV4FeeShares",
+      "address": "0x0C95AD83ff7e0F6b35368998747901fc9A1DfE5D",
+      "args": "0x0000000000000000000000003600000000000000000000000000000000000000000000000000000000000000c8c656728ed5cd5bd3f3e1c64cb628f3733af5eb000000000000000000000000c8c656728ed5cd5bd3f3e1c64cb628f3733af5eb0000000000000000000000000000000000000000000000000000000005f5e10000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000100000000000000000000000000ec2cfd2749d7de9662615dba63742888f62502870000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951000000000000000000000000000000000000000000000000000000000000002368747470733a2f2f747269706c2e66756e2f6170692f6e66742d6d657461646174612f0000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "TriplV4FeeVault",
+      "address": "0x1429f58F91fFD0625D6227B6a19dBACB402CEA5E",
+      "args": "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e409510000000000000000000000003600000000000000000000000000000000000000000000000000000000000000c8c656728ed5cd5bd3f3e1c64cb628f3733af5eb000000000000000000000000ec2cfd2749d7de9662615dba63742888f62502870000000000000000000000000c95ad83ff7e0f6b35368998747901fc9a1dfe5d"
+    },
+    {
+      "name": "TriplV4HookDeployer",
+      "address": "0xd57ffB92e0319212623382d66c5951E61F643183",
+      "args": "0x000000000000000000000000592d1bf1508006a3e5992d2092db0ad4ffd4e2a50000000000000000000000000000000000000000000000000000000000000a46"
+    },
+    {
+      "name": "TriplV4FeeHook",
+      "address": "0xF3dd4C1A67F7d970a5D77E9b8D1466A613a820CC",
+      "args": "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951000000000000000000000000ec2cfd2749d7de9662615dba63742888f625028700000000000000000000000036000000000000000000000000000000000000000000000000000000000000000c95ad83ff7e0f6b35368998747901fc9a1dfe5d0000000000000000000000001429f58f91ffd0625d6227b6a19dbacb402cea5e"
+    },
+    {
+      "name": "TriplV4SwapRouter",
+      "address": "0x0A2B7fcc81210ff7326F2A6571E821686823948c",
+      "args": "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951000000000000000000000000ec2cfd2749d7de9662615dba63742888f6250287"
+    }
+  ],
+  "note": "Predicted infrastructure identities only. Check actual receipts before explorer submission. LaunchDeployer is created through a permissionless helper; read factory.launchDeployer() after deployment for its address. Per-market contracts need verification after launch."
+}
